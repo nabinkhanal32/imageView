@@ -8,23 +8,29 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:orientation="horizontal"
         >
 
     <RadioButton
+    android:id="@+id/rdorajesh"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Rajesh hamal"
+    android:layout_weight="1"
     />
     <RadioButton
+            android:id="@+id/rdosalman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Salman Khan"
+            android:layout_weight="1"
             />
     <RadioButton
+            android:id="@+id/rdobhuvan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bhuvan KC"
+            android:layout_weight="1"
             />
     </RadioGroup>
 
