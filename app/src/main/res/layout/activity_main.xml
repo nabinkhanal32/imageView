@@ -4,37 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
-    <RadioButton
-    android:id="@+id/rdorajesh"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Rajesh hamal"
-    android:layout_weight="1"
-    />
-    <RadioButton
+        <RadioButton
+            android:id="@+id/rdorajesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rajesh hamal" />
+
+        <RadioButton
             android:id="@+id/rdosalman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salman Khan"
             android:layout_weight="1"
-            />
-    <RadioButton
+            android:text="Salman Khan" />
+
+        <RadioButton
             android:id="@+id/rdobhuvan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bhuvan KC"
             android:layout_weight="1"
-            />
+            android:text="Bhuvan KC" />
     </RadioGroup>
 
     <ImageView
+        android:id="@+id/imghero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
